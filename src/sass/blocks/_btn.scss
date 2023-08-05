@@ -1,0 +1,58 @@
+.edu22-btn {
+    display: block;
+    cursor: pointer;
+}
+
+.edu22-btn {
+    position: absolute;
+    top: 23px;
+    right: 24px;
+    width: 36px;
+    height: 36px;
+    /* border-radius: 50px; */
+    background: #FFFFFF;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+
+p:last-of-type {
+    margin-bottom: 0;
+}
+p:first-of-type {
+    margin-top: 0;
+}
+.edu22-btn-arrow {
+    left: 9px;
+    top: 5px;
+    transform: rotate(135deg);
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-top: 2px solid #000;
+    border-right: 2px solid #000;
+    cursor: pointer;
+    transition-property: all;
+    transition-duration: .5s;
+}
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.39;
+    margin: 20px 0;
+}
+
+.edu22-btn-arrow-open {
+    transform: rotate(315deg);
+    top: 10px;
+    border-top: 2px solid #FF6014;
+    border-right: 2px solid #FF6014;
+    transition-property: all;
+    transition-duration: .5s;
+}
+.edu22-btn-open {
+    /* border: 2px solid #FF6014; */
+}
